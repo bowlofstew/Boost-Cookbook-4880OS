@@ -111,7 +111,7 @@ int main() {
                 queue.push_task(ts);
             }
         } else {
-            std::cout << "Gettinging data" << std::endl;
+            std::cout << "Getting data" << std::endl;
             assert(task->value_ == 0);
             for (std::size_t i = 1; i < max_tasks_count; ++i) {
                 assert(queue.pop_task().value_ == i);
